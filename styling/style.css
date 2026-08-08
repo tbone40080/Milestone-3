@@ -18,7 +18,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: #3378C9;
+    color: #0B5FA5;
     word-break: break-word;
 }
 
@@ -126,4 +126,66 @@ footer {
     .content-columns section {
         padding: 32px;
     }
+}
+
+/* contact form (milestone 3 related) */
+.form-group {
+    margin-bottom: 16px;
+    display flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+input[type"text"],
+input[type="email"],
+textarea {
+    padding: 8px;
+    border: 1px solid #B0B0B0;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+fieldset {
+    border: 1px solid #B0B0B0;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+legend {
+    font-weight: 600;
+    padding: 0 8px;
+}
+
+.radio-label {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.error-message {
+    color: #B00020;
+    font-size: 0.9rem;
+    margin-top: 4px;
+    display:block;
+}
+
+button[type="submit"] {
+    background-color: #1B3A5C;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#form-status {
+    margin-top: 16px;
+    font-weight: 600;
 }
