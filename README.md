@@ -9,9 +9,9 @@ changed the link color from a lighter blue to a darker blue (#0B5FA5) so it woul
 
 made the email and GitHub contact info real clickable links (mailto: and https://) instead of plain text.
 
-every input in the contact form has a real <label> tag linked to it with matching for/id, instead of relying on a placeholder.
+every input in the contact form has a real       < label > tag linked to it with matching for/id, instead of relying on a placeholder.
 
-grouped the "Reason for Contact" radio buttons in a <fieldset> with a <legend>, so a screen reader reads the questions first, then each option.
+grouped the "Reason for Contact" radio buttons in a < fieldset > with a < legend >, so a screen reader reads the questions first, then each option.
 
 form errors show up as visible text next to each field instead of a popup alert, so the message stays on the page and is readable by anyone.
 
