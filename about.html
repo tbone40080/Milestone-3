@@ -110,12 +110,12 @@
                 nameError.textContent = '';
             }
 
-            const email = document.getElementbyId('email-input');
+            const email = document.getElementById('email-input');
             const emailError = document.getElementById('email-error');
-            if (email.value.trim() === '' || !email.value.includes('@'))
-            emailError.textContent = 'Please enter a valid email address.';
-        isValid = false;
-        } else {
+            if (email.value.trim() === '' || !email.value.includes('@')) {
+                emailError.textContent = 'Please enter a valid email address.';
+                isValid = false;
+            } else {
             emailError.textContent = '';
         }
 
