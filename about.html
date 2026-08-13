@@ -77,7 +77,7 @@
 
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" row="5" required></textarea>
+                    <textarea id="message" name="message" rows="5" required></textarea>
                     <span class="error-message" id="message-error"></span>
                 </div>
 
@@ -115,11 +115,12 @@
 
             const email = document.getElementById('email-input');
             const emailError = document.getElementById('email-error');
+
             if (email.value.trim() === '') {
                 emailError.textContent = 'Please enter your email address.';
                 isValid = false;
-            }
-            if (email.value.trim() === '' || !email.value.includes('@')) {
+            
+             } if (email.value.trim() === '' || !email.value.includes('@')) {
                 emailError.textContent = 'Please enter a valid email address.';
                 isValid = false;
             } else {
@@ -151,7 +152,7 @@
             status.textContent = 'Thanks for the message it has been submitted.';
             form.reset();
         } else {
-            status.textContent = 'Please fix the errors made above and try ahain.';
+            status.textContent = 'Please fix the errors made above and try again.';
         }
         });
     </script>
