@@ -15,6 +15,9 @@ grouped the "Reason for Contact" radio buttons in a < fieldset > with a < legend
 
 form errors show up as visible text next to each field instead of a popup alert, so the message stays on the page and is readable by anyone.
 
+fixed a typo in my JavaScript (getElementbyId instead of getElementById) and a missing curly brace in the email validation that was silently breaking the whole script, so the error messages actually show up now.
+
+added a novalidate to the form tag so my own error messages show up instead of the browser's default validation popups taking over first.
 
 Gestalt Principles Added/Applied:
 Proximity: the two related sections on each page sit close together inside one container, showing they're part of the same message.
